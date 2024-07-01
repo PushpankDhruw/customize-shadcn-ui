@@ -21,6 +21,9 @@ import {
   UserRound,
   Rss,
   Briefcase,
+  Boxes,
+  BoxesIcon,
+  Archive,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -71,12 +74,12 @@ function DropdownMenuExample() {
             <DropdownMenuItem>
               <User className="mr-2 h-4 w-4" />
               <span>About Us</span>
-              <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
+              {/* <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut> */}
             </DropdownMenuItem>
             <DropdownMenuItem>
               <CreditCard className="mr-2 h-4 w-4" />
               <span>Products</span>
-              <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
+              {/* <DropdownMenuShortcut>⌘B</DropdownMenuShortcut> */}
             </DropdownMenuItem>
             {/* Services dropdown menu */}
             <DropdownMenuSub>
@@ -89,7 +92,7 @@ function DropdownMenuExample() {
                 <DropdownMenuSubContent className="ml-5">
                   <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                      <FunctionSquare className="mr-2 h-4 w-4" />
+                      <Archive className="mr-2 h-4 w-4" />
                       <span>Service Offerings</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
@@ -127,7 +130,7 @@ function DropdownMenuExample() {
             <DropdownMenuItem>
               <Rss className="mr-2 h-4 w-4" />
               <span>Blog</span>
-              <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
+              {/* <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut> */}
             </DropdownMenuItem>
           </DropdownMenuGroup>
           <DropdownMenuSeparator />
@@ -143,7 +146,7 @@ function DropdownMenuExample() {
           <DropdownMenuItem>
             <Search className="mr-2 h-4 w-4" />
             <span>Search</span>
-            <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
+            {/* <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut> */}
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
